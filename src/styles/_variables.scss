@@ -39,8 +39,8 @@ $dark1-red:    $red-10       !default;
 /*********   基础色--end   ***********/
 
 /*********   功能色--start   *********/
-$primary:      $red-10       !default;               
-$secondary:    $red-9        !default;  
+$primary:      $red-6        !default;               
+$secondary:    $red-4        !default;  
 $success:      $green        !default;                             
 $warning:      $yellow       !default;                             
 $danger:       $red          !default;                         
@@ -49,3 +49,89 @@ $light:        $gray-2       !default;
 $dark:         $gray-9       !default;                         
 /*********   功能色--end     *********/
                                         
+/*********   字体--start     *********/
+// 参考antd: https://ant.design/docs/spec/font-cn#%E5%AD%97%E4%BD%93%E5%AE%B6%E6%97%8F
+// 通用字体
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+  'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+  'Noto Color Emoji' !default;
+// 等宽字体(针对数字)
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base: $font-family-sans-serif !default;
+/*********   字体--end     *********/
+
+/*********   字体大小--start********/
+$font-size-base:      1rem !default;
+$font-size-lg:        $font-size-base * 1.25 !default;
+$font-size-sm:        $font-size-base * .875 !default;
+$small-font-size:     .875em                 !default;
+$sub-sup-font-size:   .75em                  !default;
+/*********   字体大小--end********/
+
+/*********   字重--start********/
+$font-weight-lighter:   lighter              !default;
+$font-weight-light:     300                  !default;
+$font-weight-normal:    400                  !default;
+$font-weight-bold:      700                  !default;
+$font-weight-bolder:    bolder               !default;
+$font-weight-base:      $font-weight-normal  !default;
+/*********   字重--end********/
+
+/*********   行高--start********/
+$line-height-base:      1.5   !default;
+$line-height-lg:        2     !default;
+$line-height-sm:        1.25  !default;
+/*********   行高--end********/
+
+/*********   标题大小--start     ********/
+$h1-font-size:      $font-size-base * 2.5   !default;
+$h2-font-size:      $font-size-base * 2     !default;
+$h3-font-size:      $font-size-base * 1.75  !default;
+$h4-font-size:      $font-size-base * 1.5   !default;
+$h5-font-size:      $font-size-base * 1.25  !default;
+$h6-font-size:      $font-size-base         !default;
+/*********   标题大小--end     ********/
+
+/*********   链接--start     ********/
+$link-color:                              $primary !default;
+$link-decoration:                         none !default;
+$link-hover-color:                        darken($link-color, 15%) !default;
+$link-hover-decoration:                   underline !default;
+/*********   链接--end       ********/
+
+/*********   body--start     ********/
+$body-bg:                   $gray-1 !default;
+$body-color:                $gray-9 !default;
+$body-text-align:           null !default;
+/*********   body--end       ********/
+
+/*********   spacer--start       ********/
+$spacer: 1rem !default;
+/*********   spacer--end       ********/
+
+/*********   hr--start       ********/
+$hr-color:           inherit !default;
+$hr-height:          1px     !default;
+$hr-opacity:         .25     !default;
+$hr-margin-y:        $spacer !default;
+/*********   hr--end       ********/
+
+/*********   heading--start       ********/
+$headings-margin-bottom:    $spacer / 2 !default;
+$headings-font-family:      null        !default;
+$headings-font-style:       null        !default;
+$headings-font-weight:      500         !default;
+$headings-line-height:      1.2         !default;
+$headings-color:            null        !default;
+/*********   heading--end       ********/
+
+/*********   code--start       ********/
+$code-font-size:   $small-font-size !default;
+$code-color:       $red-5           !default;
+$pre-color:        null             !default;
+/*********   code--end       ********/
+
+
+/*********   Paragraphs--start       ********/
+$paragraph-margin-bottom:   1rem !default;
+/*********   Paragraphs--end       ********/
