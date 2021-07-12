@@ -1,0 +1,51 @@
+/*********   中性色--start   *********/
+$gray-1:      #fff         !default;
+$gray-2:      #f5f5f5      !default;
+$gray-3:      #f0f0f0      !default;
+$gray-4:      #d9d9d9      !default;
+$gray-5:      #8c8c8c      !default;
+$gray-6:      #595959      !default;
+$gray-7:      #434343      !default;
+$gray-8:      #262626      !default;
+$gray-9:      #1f1f1f      !default;
+$gray-10:     #000         !default;
+/*********   中性色--end   ***********/
+
+/*********   基础色--start   *********/
+// 使用antd-Dust Red / 薄暮
+$red-1:       #fff1f0      !default;
+$red-2:       #ffccc7      !default;
+$red-3:       #ffa39e      !default;
+$red-4:       #ff7875      !default;
+$red-5:       #ff4d4f      !default;
+$red-6:       #f5222d      !default;
+$red-7:       #cf1322      !default;
+$red-8:       #a8071a      !default;
+$red-9:       #820014      !default;
+$red-10:      #5c0011      !default;
+// success
+$light-green: #f6ffed      !default;
+$green:       #b7eb8f      !default;
+$dark-green:  #52c41a      !default;
+// waring
+$yellow:      #ffe58f      !default;
+$light-yellow:#fffbe6      !default;
+$dark-yellow: #faad14      !default;
+// info & error
+$red:          $red-6        !default;
+$light-red:    $red-2        !default;
+$dark-red:     $red-8        !default;
+$dark1-red:    $red-10       !default;
+/*********   基础色--end   ***********/
+
+/*********   功能色--start   *********/
+$primary:      $red-10       !default;               
+$secondary:    $red-9        !default;  
+$success:      $green        !default;                             
+$warning:      $yellow       !default;                             
+$danger:       $red          !default;                         
+$info:         $red          !default;                      
+$light:        $gray-2       !default;                          
+$dark:         $gray-9       !default;                         
+/*********   功能色--end     *********/
+                                        
