@@ -1,108 +1,109 @@
 /*********   中性色--start   *********/
-$gray-1:      #fff         !default;
-$gray-2:      #f5f5f5      !default;
-$gray-3:      #f0f0f0      !default;
-$gray-4:      #d9d9d9      !default;
-$gray-5:      #8c8c8c      !default;
-$gray-6:      #595959      !default;
-$gray-7:      #434343      !default;
-$gray-8:      #262626      !default;
-$gray-9:      #1f1f1f      !default;
-$gray-10:     #000         !default;
+$gray-1: #fff !default;
+$gray-2: #f5f5f5 !default;
+$gray-3: #f0f0f0 !default;
+$gray-4: #d9d9d9 !default;
+$gray-5: #8c8c8c !default;
+$gray-6: #595959 !default;
+$gray-7: #434343 !default;
+$gray-8: #262626 !default;
+$gray-9: #1f1f1f !default;
+$gray-10: #000 !default;
 /*********   中性色--end   ***********/
 
 /*********   基础色--start   *********/
 // 使用antd-Dust Red / 薄暮
-$red-1:       #fff1f0      !default;
-$red-2:       #ffccc7      !default;
-$red-3:       #ffa39e      !default;
-$red-4:       #ff7875      !default;
-$red-5:       #ff4d4f      !default;
-$red-6:       #f5222d      !default;
-$red-7:       #cf1322      !default;
-$red-8:       #a8071a      !default;
-$red-9:       #820014      !default;
-$red-10:      #5c0011      !default;
+$red-1: #fff1f0 !default;
+$red-2: #ffccc7 !default;
+$red-3: #ffa39e !default;
+$red-4: #ff7875 !default;
+$red-5: #ff4d4f !default;
+$red-6: #f5222d !default;
+$red-7: #cf1322 !default;
+$red-8: #a8071a !default;
+$red-9: #820014 !default;
+$red-10: #5c0011 !default;
 // success
-$light-green: #f6ffed      !default;
-$green:       #b7eb8f      !default;
-$dark-green:  #52c41a      !default;
+$light-green: #f6ffed !default;
+$green: #b7eb8f !default;
+$dark-green: #52c41a !default;
 // waring
-$yellow:      #ffe58f      !default;
-$light-yellow:#fffbe6      !default;
-$dark-yellow: #faad14      !default;
+$yellow: #ffe58f !default;
+$light-yellow: #fffbe6 !default;
+$dark-yellow: #faad14 !default;
 // info & error
-$red:          $red-6        !default;
-$light-red:    $red-2        !default;
-$dark-red:     $red-8        !default;
-$dark1-red:    $red-10       !default;
+$red: $red-6 !default;
+$light-red: $red-2 !default;
+$dark-red: $red-8 !default;
+$dark1-red: $red-10 !default;
 /*********   基础色--end   ***********/
 
 /*********   功能色--start   *********/
-$primary:      $red-6        !default;               
-$secondary:    $red-4        !default;  
-$success:      $green        !default;                             
-$warning:      $yellow       !default;                             
-$danger:       $red          !default;                         
-$info:         $red          !default;                      
-$light:        $gray-2       !default;                          
-$dark:         $gray-9       !default;                         
+$primary: $red-6 !default;
+$secondary: $red-4 !default;
+$success: $green !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$info: $red !default;
+$light: $gray-2 !default;
+$dark: $gray-9 !default;
 /*********   功能色--end     *********/
-                                        
+
 /*********   字体--start     *********/
 // 参考antd: https://ant.design/docs/spec/font-cn#%E5%AD%97%E4%BD%93%E5%AE%B6%E6%97%8F
 // 通用字体
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
-  'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
-  'Noto Color Emoji' !default;
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 // 等宽字体(针对数字)
-$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+  "Liberation Mono", "Courier New", monospace !default;
 $font-family-base: $font-family-sans-serif !default;
 /*********   字体--end     *********/
 
 /*********   字体大小--start********/
-$font-size-base:      1rem !default;
-$font-size-lg:        $font-size-base * 1.25 !default;
-$font-size-sm:        $font-size-base * .875 !default;
-$small-font-size:     .875em                 !default;
-$sub-sup-font-size:   .75em                  !default;
+$font-size-base: 1rem !default;
+$font-size-lg: $font-size-base * 1.25 !default;
+$font-size-sm: $font-size-base * 0.875 !default;
+$small-font-size: 0.875em !default;
+$sub-sup-font-size: 0.75em !default;
 /*********   字体大小--end********/
 
 /*********   字重--start********/
-$font-weight-lighter:   lighter              !default;
-$font-weight-light:     300                  !default;
-$font-weight-normal:    400                  !default;
-$font-weight-bold:      700                  !default;
-$font-weight-bolder:    bolder               !default;
-$font-weight-base:      $font-weight-normal  !default;
+$font-weight-lighter: lighter !default;
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-bold: 700 !default;
+$font-weight-bolder: bolder !default;
+$font-weight-base: $font-weight-normal !default;
 /*********   字重--end********/
 
 /*********   行高--start********/
-$line-height-base:      1.5   !default;
-$line-height-lg:        2     !default;
-$line-height-sm:        1.25  !default;
+$line-height-base: 1.5 !default;
+$line-height-lg: 2 !default;
+$line-height-sm: 1.25 !default;
 /*********   行高--end********/
 
 /*********   标题大小--start     ********/
-$h1-font-size:      $font-size-base * 2.5   !default;
-$h2-font-size:      $font-size-base * 2     !default;
-$h3-font-size:      $font-size-base * 1.75  !default;
-$h4-font-size:      $font-size-base * 1.5   !default;
-$h5-font-size:      $font-size-base * 1.25  !default;
-$h6-font-size:      $font-size-base         !default;
+$h1-font-size: $font-size-base * 2.5 !default;
+$h2-font-size: $font-size-base * 2 !default;
+$h3-font-size: $font-size-base * 1.75 !default;
+$h4-font-size: $font-size-base * 1.5 !default;
+$h5-font-size: $font-size-base * 1.25 !default;
+$h6-font-size: $font-size-base !default;
 /*********   标题大小--end     ********/
 
 /*********   链接--start     ********/
-$link-color:                              $primary !default;
-$link-decoration:                         none !default;
-$link-hover-color:                        darken($link-color, 15%) !default;
-$link-hover-decoration:                   underline !default;
+$link-color: $primary !default;
+$link-decoration: none !default;
+$link-hover-color: darken($link-color, 15%) !default;
+$link-hover-decoration: underline !default;
 /*********   链接--end       ********/
 
 /*********   body--start     ********/
-$body-bg:                   $gray-1 !default;
-$body-color:                $gray-9 !default;
-$body-text-align:           null !default;
+$body-bg: $gray-1 !default;
+$body-color: $gray-9 !default;
+$body-text-align: null !default;
 /*********   body--end       ********/
 
 /*********   spacer--start       ********/
@@ -110,82 +111,82 @@ $spacer: 1rem !default;
 /*********   spacer--end       ********/
 
 /*********   hr--start       ********/
-$hr-color:           inherit !default;
-$hr-height:          1px     !default;
-$hr-opacity:         .25     !default;
-$hr-margin-y:        $spacer !default;
+$hr-color: inherit !default;
+$hr-height: 1px !default;
+$hr-opacity: 0.25 !default;
+$hr-margin-y: $spacer !default;
 /*********   hr--end       ********/
 
 /*********   heading--start       ********/
-$headings-margin-bottom:    $spacer / 2 !default;
-$headings-font-family:      null        !default;
-$headings-font-style:       null        !default;
-$headings-font-weight:      500         !default;
-$headings-line-height:      1.2         !default;
-$headings-color:            null        !default;
+$headings-margin-bottom: $spacer / 2 !default;
+$headings-font-family: null !default;
+$headings-font-style: null !default;
+$headings-font-weight: 500 !default;
+$headings-line-height: 1.2 !default;
+$headings-color: null !default;
 /*********   heading--end       ********/
 
 /*********   code--start       ********/
-$code-font-size:   $small-font-size !default;
-$code-color:       $red-5           !default;
-$pre-color:        null             !default;
+$code-font-size: $small-font-size !default;
+$code-color: $red-5 !default;
+$pre-color: null !default;
 /*********   code--end       ********/
 
-
 /*********   Paragraphs--start       ********/
-$paragraph-margin-bottom:   1rem !default;
+$paragraph-margin-bottom: 1rem !default;
 /*********   Paragraphs--end       ********/
 
 /*********   边框和border&radius--start       ********/
-$border-width:                1px !default;
-$border-color:                $gray-3 !default;
+$border-width: 1px !default;
+$border-color: $gray-3 !default;
 
-$border-radius:               .25rem !default;
-$border-radius-lg:            .3rem !default;
-$border-radius-sm:            .2rem !default;
+$border-radius: 0.25rem !default;
+$border-radius-lg: 0.3rem !default;
+$border-radius-sm: 0.2rem !default;
 
 // 不同类型的 box shadow
-$box-shadow-sm:               0 .125rem .25rem rgba($gray-10, .075) !default;
-$box-shadow:                  0 .5rem 1rem rgba($gray-10, .15) !default;
-$box-shadow-lg:               0 1rem 3rem rgba($gray-10, .175) !default;
-$box-shadow-inset:            inset 0 1px 2px rgba($gray-10, .075) !default;
+$box-shadow-sm: 0 0.125rem 0.25rem rgba($gray-10, 0.075) !default;
+$box-shadow: 0 0.5rem 1rem rgba($gray-10, 0.15) !default;
+$box-shadow-lg: 0 1rem 3rem rgba($gray-10, 0.175) !default;
+$box-shadow-inset: inset 0 1px 2px rgba($gray-10, 0.075) !default;
 /*********   边框和border&radius--end       ********/
 
 /*********   button组件--start       ********/
 // 按钮基本属性
-$btn-font-weight:             400;
-$btn-padding-y:               .375rem !default;
-$btn-padding-x:               .75rem !default;
-$btn-font-family:             $font-family-base !default;
-$btn-font-size:               $font-size-base !default;
-$btn-line-height:             $line-height-base !default;
+$btn-font-weight: 400;
+$btn-padding-y: 0.375rem !default;
+$btn-padding-x: 0.75rem !default;
+$btn-font-family: $font-family-base !default;
+$btn-font-size: $font-size-base !default;
+$btn-line-height: $line-height-base !default;
 
 //不同大小按钮的 padding 和 font size
-$btn-padding-y-sm:            .25rem !default;
-$btn-padding-x-sm:            .5rem !default;
-$btn-font-size-sm:            $font-size-sm !default;
+$btn-padding-y-sm: 0.25rem !default;
+$btn-padding-x-sm: 0.5rem !default;
+$btn-font-size-sm: $font-size-sm !default;
 
-$btn-padding-y-lg:            .5rem !default;
-$btn-padding-x-lg:            1rem !default;
-$btn-font-size-lg:            $font-size-lg !default;
+$btn-padding-y-lg: 0.5rem !default;
+$btn-padding-x-lg: 1rem !default;
+$btn-font-size-lg: $font-size-lg !default;
 
 // 按钮边框
-$btn-border-width:            $border-width !default;
+$btn-border-width: $border-width !default;
 
 // 按钮其他
-$btn-box-shadow:              inset 0 1px 0 rgba($gray-1, .15), 0 1px 1px rgba($gray-10, .075) !default;
-$btn-disabled-opacity:        .65 !default;
+$btn-box-shadow: inset 0 1px 0 rgba($gray-1, 0.15),
+  0 1px 1px rgba($gray-10, 0.075) !default;
+$btn-disabled-opacity: 0.65 !default;
 
 // 链接按钮
-$btn-link-color:              $link-color !default;
-$btn-link-hover-color:        $link-hover-color !default;
-$btn-link-disabled-color:     $gray-6 !default;
-
+$btn-link-color: $link-color !default;
+$btn-link-hover-color: $link-hover-color !default;
+$btn-link-disabled-color: $gray-6 !default;
 
 // 按钮 radius
-$btn-border-radius:           $border-radius !default;
-$btn-border-radius-lg:        $border-radius-lg !default;
-$btn-border-radius-sm:        $border-radius-sm !default;
+$btn-border-radius: $border-radius !default;
+$btn-border-radius-lg: $border-radius-lg !default;
+$btn-border-radius-sm: $border-radius-sm !default;
 
-$btn-transition:              color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
+$btn-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !default;
 /*********   button组件--end       ********/

@@ -5,7 +5,13 @@ import './App.css'
 function App() {
   return (
     <div className="App">
-      <Button btnType={ButtonType.Primary} size={ButtonSize.Large}>
+      <Button btnType={ButtonType.Primary} size={ButtonSize.Small}>
+        xxxxxx
+      </Button>
+      <Button btnType={ButtonType.Default}>
+        xxxxxx
+      </Button>
+      <Button btnType={ButtonType.Danger} size={ButtonSize.Large}>
         xxxxxx
       </Button>
       <Button btnType={ButtonType.Primary} size={ButtonSize.Large} disabled>

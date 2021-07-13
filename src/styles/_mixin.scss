@@ -1,0 +1,28 @@
+@mixin btn-size($padding-x, $padding-y, $font-size, $border-radius) {
+  padding: $padding-y $padding-x;
+  font-size: $font-size;
+  border-radius: $border-radius;
+}
+
+@mixin btn-style($background, $border, $color) {
+  background: $background;
+  border: $border solid 1px;
+  color: $color;
+  &:hover {
+    background: lighten($background, 7.5%);
+    border: lighten($border, 10%) solid 1px;
+    color: $color;
+  }
+  &.focus,
+  &:focus {
+    background: lighten($background, 7.5%);
+    border: lighten($border, 10%) solid 1px;
+    color: $color;
+  }
+  &.disabled,
+  &:disabled {
+    background: $background;
+    border: $border solid 1px;
+    color: $color;
+  }
+}
