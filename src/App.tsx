@@ -5,10 +5,10 @@ import './App.css'
 function App() {
   return (
     <div className="App">
-      <Button btnType={ButtonType.Primary} size={ButtonSize.Small}>
+      <Button btnType={ButtonType.Primary} size={ButtonSize.Small} autoFocus>
         xxxxxx
       </Button>
-      <Button btnType={ButtonType.Default}>
+      <Button btnType={ButtonType.Default} >
         xxxxxx
       </Button>
       <Button btnType={ButtonType.Danger} size={ButtonSize.Large}>
