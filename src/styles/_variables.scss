@@ -23,6 +23,7 @@ $red-7: #cf1322 !default;
 $red-8: #a8071a !default;
 $red-9: #820014 !default;
 $red-10: #5c0011 !default;
+$transparent: transparent !default;
 // success
 $light-green: #f6ffed !default;
 $green: #b7eb8f !default;
@@ -96,7 +97,7 @@ $h6-font-size: $font-size-base !default;
 /*********   链接--start     ********/
 $link-color: $primary !default;
 $link-decoration: none !default;
-$link-hover-color: darken($link-color, 15%) !default;
+$link-hover-color: lighten($link-color, 15%) !default;
 $link-hover-decoration: underline !default;
 /*********   链接--end       ********/
 

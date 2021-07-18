@@ -23,6 +23,7 @@
     }
   }
 }
+// btn-size($background, $border, $color)
 
 .btn-lg {
   @include btn-size($btn-padding-x-lg, $btn-padding-y-lg,$btn-font-size-lg,$border-radius-lg );
@@ -42,6 +43,10 @@
 
 .btn-default {
   @include btn-style($gray-1, $gray-4,$gray-10,);
+}
+
+.btn-ghost {
+  @include btn-style($transparent, $gray-1,$gray-1,);
 } 
 
 .btn-link {

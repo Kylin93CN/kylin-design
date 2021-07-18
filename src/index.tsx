@@ -1,1 +1,11 @@
-export { default as Button} from './components/Botton';
+// export { default as Button} from './components/Botton';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
