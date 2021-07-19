@@ -6,8 +6,45 @@ export default {
   title: "Kylin Design/Button",
   component: Button,
   argTypes: {
-    children: { control: "text" },
-    btnType: { type: "radio", options: ["primary", "default", "danger"] },
+    children: {
+      name: "children",
+      type: { name: "string", required: false },
+      control: "text",
+      description: "button text",
+      table: {
+        type: { summary: "string" },
+        defaultValue: { summary: "-" },
+      },
+    },
+    btnType: {
+      name: "children",
+      description: "button type",
+      type: "radio",
+      options: ["primary", "default", "danger", "link", "ghost"],
+      table: {
+        type: { summary: "string" },
+        defaultValue: { summary: "default" },
+      },
+    },
+    size: {
+      name: "size",
+      description: "button size",
+      table: {
+        type: { summary: "string" },
+        defaultValue: { summary: "-" },
+      },
+      type: "radio",
+      options: ["lg", "sm", ""],
+    },
+    href: {
+      name: "href",
+      description: "link button location url",
+      control: "text",
+      table: {
+        type: { summary: "string" },
+        defaultValue: { summary: "-" },
+      },
+    },
   },
 } as ComponentMeta<typeof Button>;
 
