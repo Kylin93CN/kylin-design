@@ -8,12 +8,13 @@ const defaultProps = {
 const defaultBtnProps: ButtonProps = {
   btnType: "default",
   className: "test-cls",
+  onClick: jest.fn(),
 };
 describe("test button component", () => {
   // test default button
   it("test default button", () => {
     const btnDom = render(
-      <Button {...defaultBtnProps} {...defaultProps}>
+      <Button {...defaultProps}>
         Default Button
       </Button>
     );

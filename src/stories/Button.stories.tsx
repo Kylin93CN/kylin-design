@@ -17,7 +17,7 @@ export default {
       },
     },
     btnType: {
-      name: "children",
+      name: "btnType",
       description: "button type",
       type: "radio",
       options: ["primary", "default", "danger", "link", "ghost"],
