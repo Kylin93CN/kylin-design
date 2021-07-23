@@ -1,10 +1,7 @@
 import React from "react";
 import { render, fireEvent } from "@testing-library/react";
-import Button from "./button";
+import Button, { ButtonProps } from "./button";
 
-const defaultProps = {
-  onClick: jest.fn(),
-};
 const defaultBtnProps: ButtonProps = {
   btnType: "default",
   className: "test-cls",
@@ -14,7 +11,7 @@ describe("test button component", () => {
   // test default button
   it("test default button", () => {
     const btnDom = render(
-      <Button {...defaultProps}>
+      <Button {...defaultBtnProps}>
         Default Button
       </Button>
     );
@@ -26,14 +23,13 @@ describe("test button component", () => {
     expect(ele).toHaveClass("btn btn-default test-cls");
     // 模拟点击
     fireEvent.click(ele);
-    expect(defaultProps.onClick).toHaveBeenCalled();
+    expect(defaultBtnProps.onClick).toHaveBeenCalled();
   });
   // test primary button
   it("test primary button", () => {
     const btnDom = render(
       <Button
         {...defaultBtnProps}
-        {...defaultProps}
         btnType="primary"
       >
         Primary Button
@@ -47,14 +43,13 @@ describe("test button component", () => {
     expect(ele).toHaveClass("btn btn-primary test-cls");
     // 模拟点击
     fireEvent.click(ele);
-    expect(defaultProps.onClick).toHaveBeenCalled();
+    expect(defaultBtnProps.onClick).toHaveBeenCalled();
   });
   // test small-ghost button
   it("test small-ghost button", () => {
     const btnDom = render(
       <Button
         {...defaultBtnProps}
-        {...defaultProps}
         size="sm"
         btnType="ghost"
       >
@@ -69,14 +64,13 @@ describe("test button component", () => {
     expect(ele).toHaveClass("btn btn-ghost btn-sm test-cls");
     // 模拟点击
     fireEvent.click(ele);
-    expect(defaultProps.onClick).toHaveBeenCalled();
+    expect(defaultBtnProps.onClick).toHaveBeenCalled();
   });
   // test disabled button
   it("test disabled button", () => {
     const btnDom = render(
       <Button
         {...defaultBtnProps}
-        {...defaultProps}
         size="sm"
         btnType="ghost"
         disabled
@@ -94,14 +88,13 @@ describe("test button component", () => {
     expect(ele.disabled).toBeTruthy();
     // 模拟点击
     fireEvent.click(ele);
-    expect(defaultProps.onClick).not.toHaveBeenCalled();
+    expect(defaultBtnProps.onClick).not.toHaveBeenCalled();
   });
   // test link button
   it("test link button", () => {
     const btnDom = render(
       <Button
         {...defaultBtnProps}
-        {...defaultProps}
         size="sm"
         btnType="link"
         // disabled
@@ -120,6 +113,6 @@ describe("test button component", () => {
     // expect(ele.disabled).toBeTruthy();
     // 模拟点击
     fireEvent.click(ele);
-    expect(defaultProps.onClick).toHaveBeenCalled();
+    expect(defaultBtnProps.onClick).toHaveBeenCalled();
   });
 });
